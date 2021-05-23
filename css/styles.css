@@ -1,0 +1,403 @@
+:root {
+  --title-text-color: #212121;
+  --primary-text-color: #757575;
+  --text: font-family: Roboto;
+}
+/*title text color: #212121;*/
+/*primary text color: #757575;*/
+/*h1, address color: #FFFFFF;
+footer link color: rgba(255, 255, 255, 0.6);*/
+
+/*main text font-family: Roboto;
+webstudio font-family: Raleway;*/
+
+/*========= title Web Studio =========*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+ul,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--text);
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+/*header*/
+
+
+.logo {
+  margin-right: 93px;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.head-logo,.foot-logo {
+color: #212121
+}
+
+
+.menu {
+  display: flex; 
+}
+.menu-item:not(:last-child) {
+margin-right: 50px;
+}
+.menu-link {
+display: block;
+padding-top: 32px;
+padding-bottom: 32px;
+
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+cursor: pointer;
+
+}
+.menu-link:focus,
+.menu-link:hover {
+ color: #2196F3; 
+}
+
+
+.header-address {
+  display: flex;
+  margin-left: auto;
+}
+.header-address-link:not(:last-child) {
+margin-right: 50px;
+
+}
+
+.address-link {
+display: block;
+padding-top: 32px;
+padding-bottom: 32px;
+
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+.address-link:focus,
+.address-link:hover {
+  color: #2196F3;
+}
+
+.navigatoin {
+  display: flex;
+  align-items: center;
+}
+/*end header*/
+
+/*main-sec*/
+
+.main-sec {
+  display: block;
+  text-align: center;   
+  padding-top: 200px;
+  height: 600px;
+  margin: 0 auto;
+}
+.main-sec-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 30px;
+}
+
+.div-main-sec {
+  background: #2F303A;
+  margin: 0 auto;
+}
+.main-sec-button {
+  font-family: var(--text);
+  cursor: pointer;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+
+}
+/*end main-sec*/
+
+/*features*/
+
+.features-item {
+  display: flex;
+  justify-content: space-between;
+  padding-right:not(last-child) 30px;
+}
+.features-list-item {
+  width: 270px;
+  height: 100px;
+  margin-top: 95px;
+  margin-bottom: 95px;
+}
+
+.features-main-title {
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+.features-title {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+.features-description {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.72;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
+
+/*end features*/
+
+/*work*/
+
+.work-img {
+  display: flex;
+  justify-content: space-between;
+ margin-bottom: 95px;
+}
+
+.work-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+margin-bottom: 50px;
+}
+ /*end work*/
+
+ /*team*/
+.team {
+  display: flex;
+  background: #F5F4FA;
+  height: 650px;
+}
+ 
+ .team-view {
+   display: flex;
+   justify-content: space-between;
+  
+   
+ }
+.team-description {
+  background-color: #FFFFFF;
+  width: 270px;
+  height: 370px;
+}
+
+
+ .team-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+margin-top: 95px;
+margin-bottom: 50px;
+color: #212121;
+
+ }
+.team-name {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+margin-top: 30px;
+
+color: #212121;
+}
+.team-profesion {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+margin-top: 10px;
+margin-bottom: 30px;
+
+color: #757575;
+}
+
+ /*end team*/
+
+  /*footer*/
+
+.address {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.footer-logo {
+  padding-top: 60px;
+}
+.main-address {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.mail-address, .tel-address {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+.footer {
+height: 250px;
+background: #2F303A;
+}
+/*end footer*/
+
+/*========= end title Web Studio =========*/
+
+
+
+/*========= title portfolio =========*/
+
+
+
+/* section buttons */
+
+.list-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 25px;
+  
+}
+
+.button {
+font-family: var(--tex);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+background: #F5F4FA;
+border-radius: 4px;
+cursor: pointer;
+margin-right: 10px;
+}
+
+.button:focus,
+.button:hover {
+ background: #2196F3;
+ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px
+}
+
+/* end section buttons */
+
+/* Projects */
+
+.portfolio-proj  {
+  display: flex;
+  height: 1350px;
+}
+
+.portfolio-proj {
+  display: flex;
+  flex-wrap: wrap;
+}
+.pf-proj-list {
+  width: 370px;
+  height: 294px;
+  margin-right: 30px;
+}
+.pf-proj-list:nth-child(3n) {
+  margin-right: 0px;
+}
+.pf-projects {
+color: transparent;
+}
+
+.pf-proj-title {
+font-family: var(--text);
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+padding-left: 25px;
+}
+
+.pf-proj-text {
+font-family: var(--text);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.67;
+letter-spacing: 0.03em;
+color: #757575;
+padding-left: 25px;
+}
+
+
+/* end section Projects */
